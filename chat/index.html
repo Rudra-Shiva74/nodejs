@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat - Realtime chat</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img src="logo.png" alt="" srcset="" class="logo">
+    </nav>
+    <div class="container">
+        <div class="message left">Abhi: Hello Rahul</div>
+        <div class="message right">Rahul: Hello Abhi</div>
+    </div>
+    <div class="send">
+        <form accept="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+
+<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+<script src="js/client.js"></script>
+
+</html>

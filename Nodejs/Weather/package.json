@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "requests": "^0.3.0"
+  },
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Creating weather app using nodejs",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Tiwari",
+  "license": "ISC"
+}
